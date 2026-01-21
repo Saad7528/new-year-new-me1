@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>New-Year-New-Me1</title>
+    <link rel="stylesheet" href="styles/portfolio">
+
+<style type="text/tailwindcss">
+
+@layer components{
+            
+    .font-work-sans{
+    font-family: "Work Sans", sans-serif;
+    
+    }
+}
+</style>
+  
 </head>
-<body>
-    sty
+<body class="font-work-sans">
+    <header class="bg-[url(images/banner/banner1.png)] w-auto h-dvh bg-center bg-cover flex justify-end items-center text-right ">
+        
+      
+        <div class="header-content  max-w-[525px]  mr-[230px]">
+            <h2 class="font-bold text-[4.06rem] text-[#151414]">All Thinks Are Possible If You believe</h2>
+            <p class=" max-w-[494px] text-base/[26px] text-[#444343] mt-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            <button class="bg-[#F15B22] text-[1.25rem] font-semibold text-white px-[25px] py-[20px] rounded-[5px] mt-8">Contact Us</button>
+        </div>
+
+    </header>
+    
 </body>
 </html>
